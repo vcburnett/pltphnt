@@ -373,6 +373,9 @@
 							<p>We have been working with SHI as volunteers, helping them run campaigns online for funding their projects around the world.</p>
 							<div class="pltphnt-slider-services">
 								<div class="icon">
+									<img src="assets/images/icon-consulting.svg" alt="Consulting">
+								</div>
+								<div class="icon">
 									<img src="assets/images/icon-web-analytics.svg" alt="Web Analytics">
 								</div>
 								<div class="icon">
@@ -385,7 +388,7 @@
 									<img src="assets/images/icon-design.svg" alt="Design">
 								</div>
 							</div>
-							<a href="javascript:void(0);" target="_self">View the project</a>
+							<a href="case-study.php" target="_self">View the project</a>
 						</div>
 					</div>
 					<div class="pltphnt-slider-pagination">

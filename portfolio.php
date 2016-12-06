@@ -31,53 +31,56 @@
 		<div class="portfolio-content">
 
 			<!-- client entry -->
-			<div class="portfolio-client">
-				<div class="portfolio-bar"></div>
-				<div class="portfolio-client-thumb">
+			<a href="case-study.php" class="prtf-client-container">
+				<div class="prtf-client-thumb">
 					<img src="assets/images/portfolio/portfolio-thumb-shi.jpg" alt="Sustainable Harvest International">
 				</div>
-				<div class="portfolio-client-text">
-					<h3>Sustainable Harvest International</h3>
-					<p>UX, Web, SEM, Consulting</p>
-					<a href="case-study.php" target="_self">View the project</a>
+				<div class="prtf-client-content">
+					<h3>Sustainbale Harvest International</h3>
+					<p class="prtf-client-services">Consulting, UX & UI Design, SEM</p>
+					<p class="prtf-client-cta">View the project</p>
 				</div>
-			</div><!-- end/ client entry -->
+			</a>
+			<!--  end/ client entry -->
+
 			<!-- client entry -->
-			<div class="portfolio-client">
-				<div class="portfolio-bar"></div>
-				<div class="portfolio-client-thumb">
+			<a href="case-study.php" class="prtf-client-container">
+				<div class="prtf-client-thumb">
 					<img src="assets/images/portfolio/portfolio-thumb-shi.jpg" alt="Sustainable Harvest International">
 				</div>
-				<div class="portfolio-client-text">
-					<h3>Sustainable Harvest International</h3>
-					<p>UX, Web, SEM, Consulting</p>
-					<a href="case-study.php" target="_self">View the project</a>
+				<div class="prtf-client-content">
+					<h3>Sustainbale Harvest International</h3>
+					<p class="prtf-client-services">Consulting, UX & UI Design, SEM</p>
+					<p class="prtf-client-cta">View the project</p>
 				</div>
-			</div><!-- end/ client entry -->
+			</a>
+			<!--  end/ client entry -->
+
 			<!-- client entry -->
-			<div class="portfolio-client">
-				<div class="portfolio-bar"></div>
-				<div class="portfolio-client-thumb">
+			<a href="case-study.php" class="prtf-client-container">
+				<div class="prtf-client-thumb">
 					<img src="assets/images/portfolio/portfolio-thumb-shi.jpg" alt="Sustainable Harvest International">
 				</div>
-				<div class="portfolio-client-text">
-					<h3>Sustainable Harvest International</h3>
-					<p>UX, Web, SEM, Consulting</p>
-					<a href="case-study.php" target="_self">View the project</a>
+				<div class="prtf-client-content">
+					<h3>Sustainbale Harvest International</h3>
+					<p class="prtf-client-services">Consulting, UX & UI Design, SEM</p>
+					<p class="prtf-client-cta">View the project</p>
 				</div>
-			</div><!-- end/ client entry -->
+			</a>
+			<!--  end/ client entry -->
+
 			<!-- client entry -->
-			<div class="portfolio-client">
-				<div class="portfolio-bar"></div>
-				<div class="portfolio-client-thumb">
+			<a href="case-study.php" class="prtf-client-container">
+				<div class="prtf-client-thumb">
 					<img src="assets/images/portfolio/portfolio-thumb-shi.jpg" alt="Sustainable Harvest International">
 				</div>
-				<div class="portfolio-client-text">
-					<h3>Sustainable Harvest International</h3>
-					<p>UX, Web, SEM, Consulting</p>
-					<a href="case-study.php" target="_self">View the project</a>
+				<div class="prtf-client-content">
+					<h3>Sustainbale Harvest International</h3>
+					<p class="prtf-client-services">Consulting, UX & UI Design, SEM</p>
+					<p class="prtf-client-cta">View the project</p>
 				</div>
-			</div><!-- end/ client entry -->
+			</a>
+			<!--  end/ client entry -->
 
 		</div>
 		<!-- end/ portfolio content -->
