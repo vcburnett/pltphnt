@@ -1163,6 +1163,22 @@ section#case-study {
 						.cs-services .cs-service-icon-wrap h2:after {
 							display: none;
 						}
+		.cs-content .internal-wrapper p {
+			margin-bottom: 1.25em;
+		}
+		.col-2 {
+			width: 47%;
+			margin-right: 2%;
+			display: inline-block;
+			vertical-align: text-top;
+		}
+
+		.col-3 {
+			width: 30%;
+			margin-right: 2%;
+			display: inline-block;
+			vertical-align: text-top;
+		}
 
 		.cs-content .internal-wrapper {
 			padding: 6em 0 7em;
@@ -1866,6 +1882,12 @@ footer {
 		margin-top: .5em;
 	}
 
+	.col-3 {
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+
 	.mobile-off {
 		display: none !important;
 	}
@@ -2019,6 +2041,12 @@ footer {
 			width: 14%;
 			padding: 3%;
 		}
+
+	.col-2 {
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
 
 }
 
