@@ -23,8 +23,7 @@
 		<div id="header-content">
 			<h1>Freelancers dedicated to marketing, communication and engagement</h1>
 			<div class="header-text">
-				<p>Platyphant is a freelance cooperative actively looking for new challenges.</p>
-				<p>Discovery and innovation are what drives us to do what we love the most: Marketing.</p>
+				<p>Platyphant is a freelance cooperative actively looking for new challenges. Innovation is what drives us to do what we love the most: Marketing.</p>
 			</div>
 			<div class="header-btn">
 				<a href="#contact-us" class="btn-contact-us scroll">Let's work together!</a>

@@ -492,6 +492,9 @@ header {
 		background-color: #357eb1;
 		text-shadow: 0 3px 3px #184665;
 	}
+		.info-right a.btn-contact-us {
+			padding: .85em 2em;
+		}
 
 section#about-us {
 	padding-top: 4em;
