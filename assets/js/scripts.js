@@ -14,6 +14,8 @@ $( document ).ready(function() {
 	var mainMenuWrapper = $("#main-menu-wrapper");
 	var menuLinks = $(".menu-links a");
 
+	var logoMobile = $("#logo-mobile");
+
 	var clientContainer = $(".client-container");
 	var clientContent = $(".client-content");
 
@@ -51,9 +53,11 @@ $( document ).ready(function() {
 	    if(yScroll > scrollTrigger) {
 			mainMenu.removeClass("main-menu");
 			mainMenu.addClass("scroll-menu");
+			logoMobile.css("opacity", 100);
 	    } else {
 			mainMenu.addClass("main-menu");
 			mainMenu.removeClass("scroll-menu");
+			logoMobile.css("opacity", 0);
 	    }
 
 	    headerHome.css("background-position", "center " + yScroll*.7 + "px");

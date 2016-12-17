@@ -50,7 +50,7 @@ table {
 /* end RESET CSS */
 
 
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic');
 
 html, body {
 	width: 100%;
@@ -84,7 +84,7 @@ img, svg {
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 2.5em;
 	line-height: 1.2em;
 	color: #333;
 	font-weight: 300;
@@ -94,7 +94,7 @@ h1 {
 h2 {
 	font-size: 3.75em;
 	line-height: 1.25em;
-	color: #363a48;
+	color: #007198;
 	font-weight: 200;
 	text-transform: uppercase;
 	margin-left: 50px;
@@ -156,6 +156,10 @@ a, input[type=submit] {
 }
 a:hover {
 	color: #c92e45;
+}
+
+.txt-blue {
+	color: #007198;
 }
 
 q, figure {
@@ -444,6 +448,22 @@ header {
 				background-color: #e1e082;
 				text-shadow: 0 3px 3px #fff;
 			}
+		#header-content #hero-logo-area {
+			width: 100%;
+			display: block;
+			text-align: center;
+		}
+			#header-content #hero-logo-area #hero-logo {
+				width: 38%;
+				max-width: 240px;
+				display: none;
+			}
+			#header-content #hero-logo-area h1 {
+				color: #666;
+				font-size: 1em;
+				line-height: 1.5em;
+				margin: .5em 0 1.5em;
+			}
 	/* -- end / THIS SECTION CHANGES ACCORDING TO CONTENT IN HERO -- */
 
 	#hero-bottom-border {
@@ -485,7 +505,7 @@ header {
 	background-color: #c92e45;
 	display: inline-block;
 	border-radius: 5px;
-	padding: .85em 2.75em;
+	padding: .85em 2.25em;
 }
 	.btn-contact-us:hover {
 		color: #fff;
@@ -662,12 +682,13 @@ section#our-work {
 
 		#our-work-content a {
 			font-size: 1.35em;
-			color: #363a48;
+			color: #fff;
+			background-color: #007198;
+			border-radius: 4px;
 			display: inline-block;
 			text-transform: uppercase;
 			text-decoration: none;
 			padding: .5em 1.5em;
-			border: 1px solid #a4a8b2;
 			vertical-align: middle;
 			margin: 1em 0 .5em;
 		}
@@ -795,6 +816,9 @@ section#our-team {
 			}
 				.member:first-child {
 					text-align: right;
+				}
+				.member:first-child .profile-pic {
+					float: right;
 				}
 				.member:first-child .member-text {
 					padding-left: 0;
@@ -1373,6 +1397,16 @@ footer {
 }
 
 
+#header-content #hero-logo-area h1 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.3em;
+	line-height: 1.25em;
+	margin: .5em 0 1.5em;
+}
+	span.txt-size-700 {
+		font-size: 1.5em;
+		font-weight: 700;
+	}
 
 /* -------------------- */
 /* ---------- */
@@ -1717,6 +1751,9 @@ footer {
 			box-sizing: border-box;
 			padding: 7px;
 			float: left;
+			opacity: 0;
+			-webkit-transition: opacity .3s;
+			transition: opacity .3s;
 		}
 		#menu-btn-mobile {
 			width: 66px;
@@ -1768,6 +1805,13 @@ footer {
 				fill: #225267;
 			}
 
+	#header-content #hero-logo-area {
+		display: block;
+	}
+		#header-content #hero-logo-area #hero-logo {
+			display: inline-block;
+		}
+
 	section#portfolio {
 		padding-top: 7em;
 	}
@@ -1791,7 +1835,7 @@ footer {
 		height: 90%;
 	}
 		h1 {
-			font-size: 2.5em;
+			font-size: 1.75em;
 			line-height: 1.2em;
 		}
 		p.txt-1 {
@@ -1881,6 +1925,15 @@ footer {
 				margin-top: 2.4em;
 			}
 
+	.cs-services .cs-service-icon-wrap {
+		width: 70px;
+		height: 70px;
+		padding-top: 18px;
+	}
+		.cs-services .cs-service-icon-wrap h2 {
+			display: none;
+		}
+
 	h4.h4-cs {
 		margin-top: .5em;
 	}
@@ -1940,6 +1993,9 @@ footer {
 		max-width: none;
 		text-align: center;
 	}
+		.info-right .btn-contact-us {
+			font-size: 1.4em;
+		}
 
 	.client-container {
 		width: 49%;
@@ -2132,6 +2188,7 @@ footer {
 		text-align: center;
 	}
 	.member:nth-child(odd) .profile-pic, .member:nth-child(even) .profile-pic {
+		width: 44%;
 		float: none;
 		clear: both;
 		margin: 0 auto;
@@ -2145,6 +2202,22 @@ footer {
 		margin: 0 auto;
 		padding: 0;
 		text-align: center;
+	}
+
+	.cs-services {
+		padding: 0 2em;
+		bottom: -102px;
+	}
+		.cs-services .cs-service-icon-wrap {
+			width: 70px;
+			height: 70px;
+			padding-top: 18px;
+		}
+			.cs-services .cs-service-icon-wrap h2 {
+				display: none;
+			}
+	.cs-content .internal-wrapper {
+		padding-top: 9em;
 	}
 
 	.mobile-only {
