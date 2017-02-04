@@ -34,37 +34,37 @@
 						</span>
 					</a>
 				</div>
-				<div class="cs-services">
-					<div class="cs-service-icon-wrap">
-						<div class="cs-service-icon">
-							<img src="assets/images/icon-consulting.svg" alt="Consulting">
-						</div>
-						<h2>Consulting</h2>
+			</div>
+			<div class="cs-services">
+				<div class="cs-service-icon-wrap">
+					<div class="cs-service-icon">
+						<img src="assets/images/icon-consulting.svg" alt="Consulting">
 					</div>
-					<div class="cs-service-icon-wrap">
-						<div class="cs-service-icon">
-							<img src="assets/images/icon-web-analytics.svg" alt="Web Analytics">
-						</div>
-						<h2>Web Analytics</h2>
+					<h2>Consulting</h2>
+				</div>
+				<div class="cs-service-icon-wrap">
+					<div class="cs-service-icon">
+						<img src="assets/images/icon-web-analytics.svg" alt="Web Analytics">
 					</div>
-					<div class="cs-service-icon-wrap">
-						<div class="cs-service-icon">
-							<img src="assets/images/icon-sem-seo.svg" alt="SEM & SEO">
-						</div>
-						<h2>SEM & SEO</h2>
+					<h2>Web Analytics</h2>
+				</div>
+				<div class="cs-service-icon-wrap">
+					<div class="cs-service-icon">
+						<img src="assets/images/icon-sem-seo.svg" alt="SEM & SEO">
 					</div>
-					<div class="cs-service-icon-wrap">
-						<div class="cs-service-icon">
-							<img src="assets/images/icon-ux-design.svg" alt="UX Design">
-						</div>
-						<h2>UX Design</h2>
+					<h2>SEM & SEO</h2>
+				</div>
+				<div class="cs-service-icon-wrap">
+					<div class="cs-service-icon">
+						<img src="assets/images/icon-ux-design.svg" alt="UX Design">
 					</div>
-					<div class="cs-service-icon-wrap">
-						<div class="cs-service-icon">
-							<img src="assets/images/icon-design.svg" alt="Web Design">
-						</div>
-						<h2>Web Design</h2>
+					<h2>UX Design</h2>
+				</div>
+				<div class="cs-service-icon-wrap">
+					<div class="cs-service-icon">
+						<img src="assets/images/icon-design.svg" alt="Web Design">
 					</div>
+					<h2>Web Design</h2>
 				</div>
 			</div>
 			<div class="internal-wrapper" id="the-content">
@@ -89,7 +89,7 @@
 					<p>Pork belly pork filet mignon sirloin salami meatball bacon drumstick hamburger. Kielbasa ham bacon pork loin alcatra chicken, strip steak corned beef leberkas sausage landjaeger venison pig bresaola shankle. Porchetta pancetta ball tip beef short loin tri-tip, cow ham bresaola frankfurter. Venison cupim leberkas prosciutto rump. Porchetta pork turkey shoulder burgdoggen brisket andouille corned beef flank bresaola.</p>
 				</div>
 			</div>
-		</div>
+		</div><!-- end/ cs-content -->
 		<!-- end/ portfolio content -->
 	</section>
 

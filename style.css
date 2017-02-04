@@ -1129,7 +1129,6 @@ section#case-study {
 			height: 60vh;
 			background: #999 no-repeat center center;
 			background-size: cover;
-			position: relative;
 		}
 			#cs-img-header .cs-img-content-wrapper {
 				width: 90%;
@@ -1161,8 +1160,8 @@ section#case-study {
 				width: 100%;
 				display: block;
 				text-align: center;
-				position: absolute;
-				bottom: -32px;
+				position: relative;
+				top: -40px;
 			}
 				.cs-services .cs-service-icon-wrap {
 					width: 100px;
@@ -1208,7 +1207,7 @@ section#case-study {
 		}
 
 		.cs-content .internal-wrapper {
-			padding: 6em 0 7em;
+			padding: 0 0 7em;
 		}
 
 /* Contact Us */
